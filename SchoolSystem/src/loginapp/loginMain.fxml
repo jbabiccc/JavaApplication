@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="mainpane" prefHeight="298.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginapp.LoginMainController">
+   <children>
+      <Label fx:id="dbstatus" layoutX="7.0" layoutY="7.0" prefHeight="25.0" prefWidth="308.0" />
+      <TextField fx:id="username" layoutX="107.0" layoutY="75.0" prefHeight="25.0" prefWidth="187.0" promptText="Username" />
+      <Button fx:id="loginButton" layoutX="107.0" layoutY="236.0" mnemonicParsing="false" onAction="#Login" prefHeight="31.0" prefWidth="187.0" text="Login" />
+      <PasswordField fx:id="password" layoutX="107.0" layoutY="124.0" prefHeight="25.0" prefWidth="187.0" promptText="Password" />
+      <ComboBox fx:id="combobox" layoutX="107.0" layoutY="179.0" prefHeight="31.0" prefWidth="187.0" promptText="Admin/Clerk/Customer" />
+   </children>
+</AnchorPane>
